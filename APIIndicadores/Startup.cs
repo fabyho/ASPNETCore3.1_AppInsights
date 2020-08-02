@@ -64,7 +64,7 @@ namespace APIIndicadores
 
             // Ativando o middlweare de Health Check
             app.UseHealthChecks("/status");
-            app.UseHealthChecks("/status2");
+            app.UseHealthChecks("/status4");
 
             app.UseEndpoints(endpoints =>
             {
